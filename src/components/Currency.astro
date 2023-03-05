@@ -2,7 +2,8 @@
 const {flag ,code, currency} = Astro.props;
 ---
 
-<div class="flex gap-2 w-full justify-center md:w-auto border-2 px-4 py-2 rounded-sm">
+<div class="flex gap-2 md:w-auto w-10/12 border-2 px-4 py-2 rounded-sm">
     <span>{flag}</span>
+    <span class="opacity-20">|</span>
     <span>{code} - {currency}</span>
   </div>
