@@ -3,3 +3,7 @@
 html {
   font-family: "Space Grotesk", sans-serif;
 }
+
+.bg-primary {
+  background-color: #08917a;
+}
